@@ -39,6 +39,5 @@ form.addEventListener('submit', function (event) {
     result.innerHTML += `<br>Numero biglietto: ${ticketNumber}`;
     result.innerHTML += `<br>Carrozza: ${coach}`;
     result.innerHTML += `<br>Titolare: ${inputName}`;
-
 })
 
