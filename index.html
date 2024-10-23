@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biglietto treno</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <form>
+        <div class="div-kilometers">
+            <label for="kilometers">Km:</label>
+            <input type="number" id="kilometers" name="kilometers" min="1">
+        </div>
+        <div class="div-age">
+            <select name="age" id="age">
+                <option value="junior"><18</option>
+                <option value="regular">18-65</option>
+                <option value="senior">65+</option>
+              </select>
+        </div>
+        <div class="buttons">
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </div>
+    </form>
+    <script src="./js/app.js"></script>
+</body>
+</html>
